@@ -1,0 +1,31 @@
+[100%] Built target multiplicador
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/library_path.sh
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/library_path.dsv
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/include/interfases/multiplicador.hpp
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/pythonpath.sh
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/lib/python3.8/site-packages/interfases/__init__.py
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/lib/interfases/image.py
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/lib/interfases/grpc_server.py
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/ament_index/resource_index/package_run_dependencies/interfases
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/ament_index/resource_index/parent_prefix_path/interfases
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/path.sh
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/path.dsv
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/local_setup.bash
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/local_setup.sh
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/local_setup.zsh
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/local_setup.dsv
+-- Symlinking: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/package.dsv
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/ament_index/resource_index/packages/interfases
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/cmake/interfasesConfig.cmake
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/cmake/interfasesConfig-version.cmake
+-- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/package.xml
+-- Up-to-date: /home/carbon/Documents/interfases_hw1/install/interfases/lib/libmultiplicador.so
+Listing '/home/carbon/Documents/interfases_hw1/install/interfases/lib/python3.8/site-packages/interfases'...
+-- Up-to-date: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/cmake/multiplicadorExport.cmake
+-- Up-to-date: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/cmake/multiplicadorExport-noconfig.cmake

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libmultiplicador.so -o libmultiplicador.so CMakeFiles/multiplicador.dir/src/multiplicador.cpp.o 

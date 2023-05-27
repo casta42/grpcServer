@@ -1,0 +1,10 @@
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:[m[K In function ‘[01m[Kposition multiplicar_por_100(int, int)[m[K’:
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:5:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kposition[m[K’
+    5 |     pos[01;31m[K->[m[Kx = x*100;
+      |        [01;31m[K^~[m[K
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:6:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kposition[m[K’
+    6 |     pos[01;31m[K->[m[Ky = y*100;
+      |        [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/multiplicador.dir/build.make:63: CMakeFiles/multiplicador.dir/src/multiplicador.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/multiplicador.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

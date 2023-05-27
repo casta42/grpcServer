@@ -1,0 +1,32 @@
+[0.010s] Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfases': /usr/bin/cmake /home/carbon/Documents/interfases_hw1/src/interfases -DCMAKE_INSTALL_PREFIX=/home/carbon/Documents/interfases_hw1/install/interfases
+[0.021s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.037s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.149s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.154s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.183s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.297s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.298s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.393s] -- Found rclpy: 1.0.12 (/opt/ros/foxy/share/rclpy/cmake)
+[0.407s] CMake Error at CMakeLists.txt:25 (find_package):
+[0.407s]   By not providing "Findgrpc.cmake" in CMAKE_MODULE_PATH this project has
+[0.407s]   asked CMake to find a package configuration file provided by "grpc", but
+[0.407s]   CMake did not find one.
+[0.407s] 
+[0.407s]   Could not find a package configuration file provided by "grpc" with any of
+[0.407s]   the following names:
+[0.408s] 
+[0.408s]     grpcConfig.cmake
+[0.408s]     grpc-config.cmake
+[0.408s] 
+[0.408s]   Add the installation prefix of "grpc" to CMAKE_PREFIX_PATH or set
+[0.408s]   "grpc_DIR" to a directory containing one of the above files.  If "grpc"
+[0.408s]   provides a separate development package or SDK, be sure it has been
+[0.408s]   installed.
+[0.408s] 
+[0.408s] 
+[0.408s] -- Configuring incomplete, errors occurred!
+[0.408s] See also "/home/carbon/Documents/interfases_hw1/build/interfases/CMakeFiles/CMakeOutput.log".
+[0.408s] See also "/home/carbon/Documents/interfases_hw1/build/interfases/CMakeFiles/CMakeError.log".
+[0.413s] Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfases' returned '1': /usr/bin/cmake /home/carbon/Documents/interfases_hw1/src/interfases -DCMAKE_INSTALL_PREFIX=/home/carbon/Documents/interfases_hw1/install/interfases

@@ -1,0 +1,10 @@
+[0.017s] Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfases': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfases -- -j8 -l8
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/multiplicador.dir/src/multiplicador.cpp.o[0m
+[0.085s] [01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmultiplicador.hpp: No such file or directory
+[0.085s]     2 | #include [01;31m[K"multiplicador.hpp"[m[K
+[0.085s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.085s] compilation terminated.
+[0.086s] make[2]: *** [CMakeFiles/multiplicador.dir/build.make:63: CMakeFiles/multiplicador.dir/src/multiplicador.cpp.o] Error 1
+[0.086s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/multiplicador.dir/all] Error 2
+[0.086s] make: *** [Makefile:141: all] Error 2
+[0.088s] Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfases' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfases -- -j8 -l8

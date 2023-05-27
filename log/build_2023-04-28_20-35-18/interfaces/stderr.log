@@ -1,0 +1,9 @@
+CMake Error at /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_module.cmake:42 (message):
+  ament_python_install_module() the Python module file
+  '/python_scripts/detector.py' doesn't exist
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_module.cmake:28 (_ament_cmake_python_install_module)
+  CMakeLists.txt:29 (ament_python_install_module)
+
+
+make: *** [Makefile:222: cmake_check_build_system] Error 1

@@ -1,0 +1,8 @@
+CMake Error at CMakeLists.txt:21 (ament_python_install_module):
+  Unknown CMake command "ament_python_install_module".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/CMakeOutput.log".
+See also "/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/CMakeError.log".
+make: *** [Makefile:222: cmake_check_build_system] Error 1

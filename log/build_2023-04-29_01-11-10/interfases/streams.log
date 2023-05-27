@@ -1,0 +1,14 @@
+[0.020s] Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfases': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfases -- -j8 -l8
+[0.053s] [35m[1mScanning dependencies of target multiplicador[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/multiplicador.dir/src/multiplicador.cpp.o[0m
+[0.115s] [01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:[m[K In function ‘[01m[Kposition multiplicar_por_100(int, int)[m[K’:
+[0.115s] [01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:5:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kposition[m[K’
+[0.115s]     5 |     pos[01;31m[K->[m[Kx = x*100;
+[0.115s]       |        [01;31m[K^~[m[K
+[0.115s] [01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:6:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kposition[m[K’
+[0.116s]     6 |     pos[01;31m[K->[m[Ky = y*100;
+[0.116s]       |        [01;31m[K^~[m[K
+[0.117s] make[2]: *** [CMakeFiles/multiplicador.dir/build.make:63: CMakeFiles/multiplicador.dir/src/multiplicador.cpp.o] Error 1
+[0.117s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/multiplicador.dir/all] Error 2
+[0.117s] make: *** [Makefile:141: all] Error 2
+[0.119s] Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfases' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfases -- -j8 -l8

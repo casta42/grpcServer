@@ -1,0 +1,9 @@
+/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/install/strip.dir
+/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/install/local.dir
+/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/install.dir
+/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/list_install_components.dir
+/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/rebuild_cache.dir
+/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/edit_cache.dir
+/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/test.dir
+/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/interfaces_uninstall.dir
+/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/uninstall.dir

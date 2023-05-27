@@ -1,0 +1,1 @@
+/home/carbon/Documents/interfases_hw1/src/interfases/scripts/image.py

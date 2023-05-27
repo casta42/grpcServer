@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:25 (find_package):
+  By not providing "Findgrpc.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "grpc", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "grpc" with any of
+  the following names:
+
+    grpcConfig.cmake
+    grpc-config.cmake
+
+  Add the installation prefix of "grpc" to CMAKE_PREFIX_PATH or set
+  "grpc_DIR" to a directory containing one of the above files.  If "grpc"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+

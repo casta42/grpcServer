@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+import "google/api/annotations.proto";
+
+package getCoordinate;
+
+
+option go_package = "./getCoordinate";
+
+
+message coordinate {
+    int32 x = 1;
+    int32 y = 2;
+}
+
+service coordinateService {
+    rpc getCoordinate(google.protobuf.Empty) returns (coordinate){
+        option (google.api.http) = {
+            get: "/httpcordinate"
+        };
+    }
+}
+

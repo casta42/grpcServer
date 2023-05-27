@@ -1,0 +1,12 @@
+[0.011s] Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfases': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/carbon/Documents/interfases_hw1/src/interfases -DCMAKE_INSTALL_PREFIX=/home/carbon/Documents/interfases_hw1/install/interfases
+[0.042s] CMake Error at /usr/share/cmake-3.16/Modules/CMakeDetermineCSharpCompiler.cmake:5 (message):
+[0.042s]   C# is currently only supported for Microsoft Visual Studio 2010 and later.
+[0.042s] Call Stack (most recent call first):
+[0.043s]   CMakeLists.txt:2 (project)
+[0.043s] 
+[0.043s] 
+[0.043s] CMake Error: CMAKE_CSharp_COMPILER not set, after EnableLanguage
+[0.043s] -- Configuring incomplete, errors occurred!
+[0.043s] See also "/home/carbon/Documents/interfases_hw1/build/interfases/CMakeFiles/CMakeOutput.log".
+[0.043s] See also "/home/carbon/Documents/interfases_hw1/build/interfases/CMakeFiles/CMakeError.log".
+[0.045s] Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfases' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/carbon/Documents/interfases_hw1/src/interfases -DCMAKE_INSTALL_PREFIX=/home/carbon/Documents/interfases_hw1/install/interfases

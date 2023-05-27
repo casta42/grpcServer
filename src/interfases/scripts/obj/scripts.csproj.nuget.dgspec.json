@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/carbon/Documents/interfases_hw1/src/interfases/scripts/scripts.csproj": {}
+  },
+  "projects": {
+    "/home/carbon/Documents/interfases_hw1/src/interfases/scripts/scripts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/carbon/Documents/interfases_hw1/src/interfases/scripts/scripts.csproj",
+        "projectName": "scripts",
+        "projectPath": "/home/carbon/Documents/interfases_hw1/src/interfases/scripts/scripts.csproj",
+        "packagesPath": "/home/carbon/.nuget/packages/",
+        "outputPath": "/home/carbon/Documents/interfases_hw1/src/interfases/scripts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/carbon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[4.0.0-rc2, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.39.0, )"
+            },
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.46.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

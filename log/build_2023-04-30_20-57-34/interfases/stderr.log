@@ -1,0 +1,30 @@
+CMake Error at CMakeLists.txt:24 (find_package):
+  find_package called with incorrect number of arguments
+
+
+Error parsing '/home/carbon/Documents/interfases_hw1/src/interfases/package.xml':
+Traceback (most recent call last):
+  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+    main()
+  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+    raise e
+  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+    package = parse_package_string(
+  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+    raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+catkin_pkg.package.InvalidPackage: Error(s) in package '/home/carbon/Documents/interfases_hw1/src/interfases/package.xml':
+Error(s):
+- The generic dependency on 'grpc' is redundant with: build_depend, exec_depend
+- The generic dependency on 'protobuf' is redundant with: build_depend, exec_depend
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+  execute_process(/usr/bin/python3
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+  /home/carbon/Documents/interfases_hw1/src/interfases/package.xml
+  /home/carbon/Documents/interfases_hw1/build/interfases/ament_cmake_core/package.cmake)
+  returned error code 1
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+  CMakeLists.txt:64 (ament_lint_auto_find_test_dependencies)
+
+

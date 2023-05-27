@@ -1,0 +1,2 @@
+Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfases': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfases -- -j8 -l8
+Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfases' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfases -- -j8 -l8

@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:24 (find_package):
+  By not providing "Findcsharp.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "csharp", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "csharp" with any
+  of the following names:
+
+    csharpConfig.cmake
+    csharp-config.cmake
+
+  Add the installation prefix of "csharp" to CMAKE_PREFIX_PATH or set
+  "csharp_DIR" to a directory containing one of the above files.  If "csharp"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+

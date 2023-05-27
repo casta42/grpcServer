@@ -1,0 +1,7 @@
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:[m[K In function ‘[01m[Kint* multiplicar_por_100(int, int)[m[K’:
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:5:12:[m[K [01;35m[Kwarning: [m[Kaddress of local variable ‘[01m[Kpos[m[K’ returned [[01;35m[K-Wreturn-local-addr[m[K]
+    5 |     return [01;35m[Kpos[m[K;
+      |            [01;35m[K^~~[m[K
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:4:9:[m[K [01;36m[Knote: [m[Kdeclared here
+    4 |     int [01;36m[Kpos[m[K[2] = {x*100, y*100};
+      |         [01;36m[K^~~[m[K

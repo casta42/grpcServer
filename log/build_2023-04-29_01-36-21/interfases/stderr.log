@@ -1,0 +1,4 @@
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:[m[K In function ‘[01m[Klong int multiplicar_por_100(int, int)[m[K’:
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:7:11:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+    7 |     [01;35m[Kpos_1 << 4[m[K;
+      |     [01;35m[K~~~~~~^~~~[m[K

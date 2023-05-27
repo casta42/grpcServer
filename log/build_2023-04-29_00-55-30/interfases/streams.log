@@ -1,0 +1,14 @@
+[0.018s] Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfases': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfases -- -j8 -l8
+[0.054s] [35m[1mScanning dependencies of target multiplicador[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/multiplicador.dir/src/multiplicador.cpp.o[0m
+[0.113s] In file included from [01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:7[m[K:
+[0.113s] [01m[K/home/carbon/Documents/interfases_hw1/src/interfases/include/interfases/multiplicador.hpp:7:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+[0.114s]     7 |     [01;31m[Kvector[m[K<int> multiplicar_por_100(vector<int> x);
+[0.114s]       |     [01;31m[K^~~~~~[m[K
+[0.114s] [01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:9:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+[0.114s]     9 | [01;31m[Kvector[m[K<int> multiplicar_por_100(vector<int> vec){
+[0.114s]       | [01;31m[K^~~~~~[m[K
+[0.116s] make[2]: *** [CMakeFiles/multiplicador.dir/build.make:63: CMakeFiles/multiplicador.dir/src/multiplicador.cpp.o] Error 1
+[0.116s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/multiplicador.dir/all] Error 2
+[0.116s] make: *** [Makefile:141: all] Error 2
+[0.118s] Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfases' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfases -- -j8 -l8

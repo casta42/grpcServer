@@ -1,0 +1,49 @@
+[0.013s] Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfases': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/carbon/Documents/interfases_hw1/src/interfases -DCMAKE_INSTALL_PREFIX=/home/carbon/Documents/interfases_hw1/install/interfases
+[0.052s] -- The C compiler identification is GNU 9.4.0
+[0.091s] -- The CXX compiler identification is GNU 9.4.0
+[0.095s] -- Check for working C compiler: /usr/bin/cc
+[0.152s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.153s] -- Detecting C compiler ABI info
+[0.206s] -- Detecting C compiler ABI info - done
+[0.220s] -- Detecting C compile features
+[0.220s] -- Detecting C compile features - done
+[0.224s] -- Check for working CXX compiler: /usr/bin/c++
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.295s] -- Detecting CXX compiler ABI info
+[0.364s] -- Detecting CXX compiler ABI info - done
+[0.379s] -- Detecting CXX compile features
+[0.379s] -- Detecting CXX compile features - done
+[0.382s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.403s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.403s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.559s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.592s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.596s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.647s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.666s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.718s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.755s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.756s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.757s] -- Looking for pthread.h
+[0.816s] -- Looking for pthread.h - found
+[0.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.871s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.872s] -- Looking for pthread_create in pthreads
+[0.926s] -- Looking for pthread_create in pthreads - not found
+[0.926s] -- Looking for pthread_create in pthread
+[0.986s] -- Looking for pthread_create in pthread - found
+[0.987s] -- Found Threads: TRUE  
+[1.129s] -- Found rclpy: 1.0.12 (/opt/ros/foxy/share/rclpy/cmake)
+[1.147s] CMake Error at /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:46 (message):
+[1.147s]   ament_python_install_package() the Python package folder
+[1.147s]   '/home/carbon/Documents/interfases_hw1/src/interfases/interfases' doesn't
+[1.147s]   contain an '__init__.py' file
+[1.147s] Call Stack (most recent call first):
+[1.147s]   /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:28 (_ament_cmake_python_install_package)
+[1.147s]   CMakeLists.txt:29 (ament_python_install_package)
+[1.147s] 
+[1.147s] 
+[1.148s] -- Configuring incomplete, errors occurred!
+[1.148s] See also "/home/carbon/Documents/interfases_hw1/build/interfases/CMakeFiles/CMakeOutput.log".
+[1.148s] See also "/home/carbon/Documents/interfases_hw1/build/interfases/CMakeFiles/CMakeError.log".
+[1.154s] Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfases' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/carbon/Documents/interfases_hw1/src/interfases -DCMAKE_INSTALL_PREFIX=/home/carbon/Documents/interfases_hw1/install/interfases

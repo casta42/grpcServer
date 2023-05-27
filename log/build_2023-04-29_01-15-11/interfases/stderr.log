@@ -1,0 +1,7 @@
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:[m[K In function ‘[01m[Kint* multiplicar_por_100(int, int)[m[K’:
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:4:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    4 | int* multiplicar_por_100([01;35m[Kint x[m[K, int y){
+      |                          [01;35m[K~~~~^[m[K
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:4:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    4 | int* multiplicar_por_100(int x, [01;35m[Kint y[m[K){
+      |                                 [01;35m[K~~~~^[m[K

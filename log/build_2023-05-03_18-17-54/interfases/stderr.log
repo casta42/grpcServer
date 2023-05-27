@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:24 (find_package):
+  By not providing "Finddotnet_csharp.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "dotnet_csharp", but CMake did not find one.
+
+  Could not find a package configuration file provided by "dotnet_csharp"
+  with any of the following names:
+
+    dotnet_csharpConfig.cmake
+    dotnet_csharp-config.cmake
+
+  Add the installation prefix of "dotnet_csharp" to CMAKE_PREFIX_PATH or set
+  "dotnet_csharp_DIR" to a directory containing one of the above files.  If
+  "dotnet_csharp" provides a separate development package or SDK, be sure it
+  has been installed.
+
+

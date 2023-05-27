@@ -1,0 +1,4 @@
+source;share/interfases/local_setup.bash
+source;share/interfases/local_setup.dsv
+source;share/interfases/local_setup.sh
+source;share/interfases/local_setup.zsh

@@ -1,0 +1,4 @@
+source;share/interfases/environment/ament_prefix_path.sh
+source;share/interfases/environment/library_path.sh
+source;share/interfases/environment/path.sh
+source;share/interfases/environment/pythonpath.sh

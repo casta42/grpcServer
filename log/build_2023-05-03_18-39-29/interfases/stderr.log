@@ -1,0 +1,7 @@
+CMake Error at /usr/share/cmake-3.16/Modules/CMakeDetermineCSharpCompiler.cmake:5 (message):
+  C# is currently only supported for Microsoft Visual Studio 2010 and later.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+CMake Error: CMAKE_CSharp_COMPILER not set, after EnableLanguage

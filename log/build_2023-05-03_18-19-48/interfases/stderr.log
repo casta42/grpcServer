@@ -1,0 +1,3 @@
+CMake Error: Cannot determine link language for target "grpc_client".
+CMake Error: CMake can not determine linker language for target: grpc_client
+CMake Generate step failed.  Build files cannot be regenerated correctly.

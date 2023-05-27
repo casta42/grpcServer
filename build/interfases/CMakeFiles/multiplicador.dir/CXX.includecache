@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/carbon/Documents/interfases_hw1/src/interfases/include/interfases/multiplicador.hpp
+
+/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp
+multiplicador.hpp
+/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.hpp
+stdio.h
+/home/carbon/Documents/interfases_hw1/src/interfases/src/stdio.h
+

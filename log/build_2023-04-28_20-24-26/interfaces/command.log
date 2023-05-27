@@ -1,0 +1,4 @@
+Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfaces -- -j8 -l8
+Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfaces -- -j8 -l8
+Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/carbon/Documents/interfases_hw1/build/interfaces
+Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/carbon/Documents/interfases_hw1/build/interfaces

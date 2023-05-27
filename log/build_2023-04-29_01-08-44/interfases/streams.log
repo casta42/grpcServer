@@ -1,0 +1,41 @@
+[0.019s] Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfases': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfases -- -j8 -l8
+[0.052s] [35m[1mScanning dependencies of target multiplicador[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/multiplicador.dir/src/multiplicador.cpp.o[0m
+[0.111s] In file included from [01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:1[m[K:
+[0.111s] [01m[K/home/carbon/Documents/interfases_hw1/src/interfases/include/interfases/multiplicador.hpp:6:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+[0.111s]     6 | [01;35m[Ktypedef[m[K struct position{
+[0.111s]       | [01;35m[K^~~~~~~[m[K
+[0.127s] [100%] [32m[1mLinking CXX shared library libmultiplicador.so[0m
+[0.158s] [100%] Built target multiplicador
+[0.167s] Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfases' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfases -- -j8 -l8
+[0.195s] Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfases': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/carbon/Documents/interfases_hw1/build/interfases
+[0.201s] -- Install configuration: ""
+[0.201s] -- Execute custom install script
+[0.202s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/library_path.sh
+[0.202s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/library_path.dsv
+[0.203s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/include/interfases/multiplicador.hpp
+[0.203s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/pythonpath.sh
+[0.203s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/pythonpath.dsv
+[0.204s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/lib/python3.8/site-packages/interfases/__init__.py
+[0.204s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/lib/interfases/image.py
+[0.205s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/ament_index/resource_index/package_run_dependencies/interfases
+[0.205s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/ament_index/resource_index/parent_prefix_path/interfases
+[0.206s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/ament_prefix_path.sh
+[0.206s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/ament_prefix_path.dsv
+[0.206s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/path.sh
+[0.206s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/path.dsv
+[0.207s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/local_setup.bash
+[0.207s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/local_setup.sh
+[0.207s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/local_setup.zsh
+[0.208s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/local_setup.dsv
+[0.208s] -- Symlinking: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/package.dsv
+[0.216s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/ament_index/resource_index/packages/interfases
+[0.216s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/cmake/ament_cmake_export_targets-extras.cmake
+[0.216s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/cmake/interfasesConfig.cmake
+[0.216s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/cmake/interfasesConfig-version.cmake
+[0.216s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/package.xml
+[0.217s] -- Installing: /home/carbon/Documents/interfases_hw1/install/interfases/lib/libmultiplicador.so
+[0.239s] Listing '/home/carbon/Documents/interfases_hw1/install/interfases/lib/python3.8/site-packages/interfases'...
+[0.242s] -- Up-to-date: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/cmake/multiplicadorExport.cmake
+[0.242s] -- Up-to-date: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/cmake/multiplicadorExport-noconfig.cmake
+[0.245s] Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfases' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/carbon/Documents/interfases_hw1/build/interfases

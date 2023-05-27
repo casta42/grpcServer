@@ -1,0 +1,7 @@
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:[m[K In function ‘[01m[Kposition multiplicar_por_100(int, int)[m[K’:
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:4:13:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    4 |     return {[01;35m[K.[m[Kx = x*100, .y = y*100};
+      |             [01;35m[K^[m[K
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:4:25:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    4 |     return {.x = x*100, [01;35m[K.[m[Ky = y*100};
+      |                         [01;35m[K^[m[K

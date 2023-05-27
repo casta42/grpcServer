@@ -1,0 +1,3 @@
+/home/carbon/Documents/interfases_hw1/install/interfases/lib/libmultiplicador.so
+/home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/cmake/multiplicadorExport.cmake
+/home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/cmake/multiplicadorExport-noconfig.cmake

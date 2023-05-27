@@ -1,0 +1,10 @@
+[0.018s] Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfaces -- -j8 -l8
+[0.040s] CMake Error at CMakeLists.txt:21 (ament_python_install_module):
+[0.040s]   Unknown CMake command "ament_python_install_module".
+[0.040s] 
+[0.040s] 
+[0.040s] -- Configuring incomplete, errors occurred!
+[0.040s] See also "/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/CMakeOutput.log".
+[0.040s] See also "/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/CMakeError.log".
+[0.042s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.044s] Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfaces -- -j8 -l8

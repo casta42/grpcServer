@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target multiplicador[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/multiplicador.dir/src/multiplicador.cpp.o[0m
+In file included from [01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:7[m[K:
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/include/interfases/multiplicador.hpp:7:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+    7 |     [01;31m[Kvector[m[K<int> multiplicar_por_100(vector<int> x);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/carbon/Documents/interfases_hw1/src/interfases/src/multiplicador.cpp:9:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+    9 | [01;31m[Kvector[m[K<int> multiplicar_por_100(vector<int> vec){
+      | [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/multiplicador.dir/build.make:63: CMakeFiles/multiplicador.dir/src/multiplicador.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/multiplicador.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

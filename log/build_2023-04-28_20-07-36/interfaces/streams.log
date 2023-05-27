@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/carbon/Documents/interfases_hw1/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/carbon/Documents/interfases_hw1/install/interfaces
+[0.024s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.169s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.199s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.313s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.314s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.416s] CMake Error at CMakeLists.txt:21 (find_package):
+[0.416s]   By not providing "Findopencv.cmake" in CMAKE_MODULE_PATH this project has
+[0.416s]   asked CMake to find a package configuration file provided by "opencv", but
+[0.416s]   CMake did not find one.
+[0.416s] 
+[0.416s]   Could not find a package configuration file provided by "opencv" with any
+[0.416s]   of the following names:
+[0.416s] 
+[0.416s]     opencvConfig.cmake
+[0.416s]     opencv-config.cmake
+[0.416s] 
+[0.416s]   Add the installation prefix of "opencv" to CMAKE_PREFIX_PATH or set
+[0.416s]   "opencv_DIR" to a directory containing one of the above files.  If "opencv"
+[0.417s]   provides a separate development package or SDK, be sure it has been
+[0.417s]   installed.
+[0.417s] 
+[0.417s] 
+[0.417s] -- Configuring incomplete, errors occurred!
+[0.417s] See also "/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/CMakeOutput.log".
+[0.417s] See also "/home/carbon/Documents/interfases_hw1/build/interfaces/CMakeFiles/CMakeError.log".
+[0.421s] Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/carbon/Documents/interfases_hw1/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/carbon/Documents/interfases_hw1/install/interfaces

@@ -1,0 +1,32 @@
+[0.018s] Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfases': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/carbon/Documents/interfases_hw1/src/interfases -DCMAKE_INSTALL_PREFIX=/home/carbon/Documents/interfases_hw1/install/interfases
+[0.029s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.047s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.165s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.170s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.196s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.277s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.311s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.312s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.422s] -- Found rclpy: 1.0.12 (/opt/ros/foxy/share/rclpy/cmake)
+[0.430s] CMake Error at CMakeLists.txt:24 (find_package):
+[0.430s]   By not providing "FindDotNET.cmake" in CMAKE_MODULE_PATH this project has
+[0.430s]   asked CMake to find a package configuration file provided by "DotNET", but
+[0.430s]   CMake did not find one.
+[0.430s] 
+[0.431s]   Could not find a package configuration file provided by "DotNET" with any
+[0.431s]   of the following names:
+[0.431s] 
+[0.431s]     DotNETConfig.cmake
+[0.431s]     dotnet-config.cmake
+[0.431s] 
+[0.431s]   Add the installation prefix of "DotNET" to CMAKE_PREFIX_PATH or set
+[0.431s]   "DotNET_DIR" to a directory containing one of the above files.  If "DotNET"
+[0.431s]   provides a separate development package or SDK, be sure it has been
+[0.431s]   installed.
+[0.431s] 
+[0.431s] 
+[0.431s] -- Configuring incomplete, errors occurred!
+[0.431s] See also "/home/carbon/Documents/interfases_hw1/build/interfases/CMakeFiles/CMakeOutput.log".
+[0.431s] See also "/home/carbon/Documents/interfases_hw1/build/interfases/CMakeFiles/CMakeError.log".
+[0.437s] Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfases' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/carbon/Documents/interfases_hw1/src/interfases -DCMAKE_INSTALL_PREFIX=/home/carbon/Documents/interfases_hw1/install/interfases

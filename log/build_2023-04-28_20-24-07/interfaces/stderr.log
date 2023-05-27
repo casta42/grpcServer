@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:41 (file):
+  file INSTALL cannot find
+  "/home/carbon/Documents/interfases_hw1/src/interfaces/python_scripts/detector.py":
+  No such file or directory.
+
+

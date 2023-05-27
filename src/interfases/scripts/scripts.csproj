@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="4.0.0-rc2"/>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.39.0"/>
+    <PackageReference Include="Grpc.Core" Version="2.46.3"/>
+    <Compile Include="../protobuff/GetValue.cs"/>
+    <Compile Include="../protobuff/GetValueGrpc.cs"/>
+  </ItemGroup>
+</Project>

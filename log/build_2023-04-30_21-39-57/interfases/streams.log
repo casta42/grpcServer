@@ -1,0 +1,33 @@
+[0.017s] Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfases': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfases -- -j8 -l8
+[0.037s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.051s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.165s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.171s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.200s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.324s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.325s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.418s] -- Found rclpy: 1.0.12 (/opt/ros/foxy/share/rclpy/cmake)
+[0.431s] CMake Error at CMakeLists.txt:26 (find_package):
+[0.432s]   By not providing "FindgRPC.cmake" in CMAKE_MODULE_PATH this project has
+[0.432s]   asked CMake to find a package configuration file provided by "gRPC", but
+[0.432s]   CMake did not find one.
+[0.432s] 
+[0.432s]   Could not find a package configuration file provided by "gRPC" with any of
+[0.432s]   the following names:
+[0.433s] 
+[0.433s]     gRPCConfig.cmake
+[0.433s]     grpc-config.cmake
+[0.433s] 
+[0.433s]   Add the installation prefix of "gRPC" to CMAKE_PREFIX_PATH or set
+[0.433s]   "gRPC_DIR" to a directory containing one of the above files.  If "gRPC"
+[0.433s]   provides a separate development package or SDK, be sure it has been
+[0.433s]   installed.
+[0.433s] 
+[0.433s] 
+[0.433s] -- Configuring incomplete, errors occurred!
+[0.433s] See also "/home/carbon/Documents/interfases_hw1/build/interfases/CMakeFiles/CMakeOutput.log".
+[0.433s] See also "/home/carbon/Documents/interfases_hw1/build/interfases/CMakeFiles/CMakeError.log".
+[0.437s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.439s] Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfases' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfases -- -j8 -l8

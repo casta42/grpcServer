@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfases': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfases -- -j8 -l8
+[0.048s] Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfases' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/carbon/Documents/interfases_hw1/build/interfases -- -j8 -l8
+[0.087s] Invoking command in '/home/carbon/Documents/interfases_hw1/build/interfases': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/carbon/Documents/interfases_hw1/build/interfases
+[0.094s] -- Install configuration: ""
+[0.094s] -- Execute custom install script
+[0.095s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/pythonpath.sh
+[0.095s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/pythonpath.dsv
+[0.095s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/lib/python3.8/site-packages/interfases/__init__.py
+[0.095s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/lib/interfases/image.py
+[0.096s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/ament_index/resource_index/package_run_dependencies/interfases
+[0.096s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/ament_index/resource_index/parent_prefix_path/interfases
+[0.096s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/ament_prefix_path.sh
+[0.096s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/ament_prefix_path.dsv
+[0.096s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/path.sh
+[0.096s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/environment/path.dsv
+[0.097s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/local_setup.bash
+[0.097s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/local_setup.sh
+[0.097s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/local_setup.zsh
+[0.097s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/local_setup.dsv
+[0.097s] -- Symlinking: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/package.dsv
+[0.105s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/ament_index/resource_index/packages/interfases
+[0.105s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/cmake/interfasesConfig.cmake
+[0.106s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/cmake/interfasesConfig-version.cmake
+[0.106s] -- Up-to-date symlink: /home/carbon/Documents/interfases_hw1/install/interfases/share/interfases/package.xml
+[0.134s] Listing '/home/carbon/Documents/interfases_hw1/install/interfases/lib/python3.8/site-packages/interfases'...
+[0.141s] Invoked command in '/home/carbon/Documents/interfases_hw1/build/interfases' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/carbon/Documents/interfases_hw1/build/interfases
