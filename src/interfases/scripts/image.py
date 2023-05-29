@@ -9,23 +9,18 @@ import ctypes
 from ctypes.util import find_library
 from std_msgs.msg import Int32MultiArray
 
-"""
-def nothing(x):
-  pass
-cv2.namedWindow("trackbar")
-cv2.createTrackbar("L-H", "trackbar",0,180,nothing)
-cv2.createTrackbar("L-S", "trackbar",0,255,nothing)
-cv2.createTrackbar("L-V", "trackbar",0,255,nothing)
-cv2.createTrackbar("U-H", "trackbar",180,180,nothing)
-cv2.createTrackbar("U-S", "trackbar",255,255,nothing)
-cv2.createTrackbar("U-V", "trackbar",255,255,nothing)
-"""
+
 
 rclpy.init()
+##Nodo de ros 
 nh = Node("coordinate_publisher_initiated")
+##Publisher de ros 
 publisher = nh.create_publisher(Int32MultiArray, '/coordinates',10)
 
 def timer_callback(array):
+
+  """Funcion deonde se publica al topico /coordinates la cordenada del centro del rectangulo usando el publisher de ros
+"""
   
   msg = Int32MultiArray()
   msg.data = array
@@ -33,7 +28,14 @@ def timer_callback(array):
   publisher.publish(msg)
   print(array)
 
+
 def main():
+
+  """En el archivo main de image.py se obtiene el centro de un rectangulo azul, se llama la funcion multiplicarpor100 de la 
+  libreria multiplicador y se llama la funcion timer callback (a esta funcion se pasan como parametros el componente x y y de la cordenada de centro del rectangulo ) 
+
+  """
+
   nh.create_timer(0.5, timer_callback)
   cap = cv2.VideoCapture(0)
   font = cv2.FONT_HERSHEY_COMPLEX 
