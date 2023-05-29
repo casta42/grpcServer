@@ -18,5 +18,5 @@ https://drive.google.com/file/d/1bn88UHJXHH8On2tJSn61kekB_ht_dOoE/view?usp=shari
 
 
 # Docs
-La documentacion del proyecto se hizo usando doygen, se puede encontrar corriendo el archivo index.html encontrado en src/interfases/html
+La documentacion del proyecto se hizo usando doxygen, se puede encontrar corriendo el archivo index.html encontrado en src/interfases/html
 
