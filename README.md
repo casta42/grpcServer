@@ -2,7 +2,7 @@
 
 Workspace de ros que implementa un servidor grpc en python, un cliente en c# y un servidor grpc-gateway para obtener la coordenada del centro de un rectangulo azul
 
-![Alt text](/midterm8vo/plant.png "Optional title")
+![Alt text](plant.png "Optional title")
 
 Para compilar el proyecto hacer colcon build -> source/install.setup.bash (se usa ros2)
 
