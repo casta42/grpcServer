@@ -36,10 +36,10 @@ def serve():
 
     getValue_pb2_grpc.add_coordinateServiceServicer_to_server(CoordinateService(), server)
 
-    server.add_insecure_port('[::]:50056')
+    server.add_insecure_port('[::]:50058')
 
 
-    print("Server started. Listening on port 50056 :3")
+    print("Server started. Listening on port 50058 :3")
 
     server.start()
 

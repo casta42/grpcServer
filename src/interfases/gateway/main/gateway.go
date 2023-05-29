@@ -15,7 +15,7 @@ import (
 )
 
 var (
-  grpcServerEndpoint = flag.String("grpc-server-endpoint",  "[::]:50056", "gRPC server endpoint")
+  grpcServerEndpoint = flag.String("grpc-server-endpoint",  "[::]:50058", "gRPC server endpoint")
 )
 
 
@@ -32,8 +32,8 @@ func run() error {
     return err
   }
 
-  fmt.Print("Starting http server on port 8083")
-  return http.ListenAndServe(":8083", mux)
+  fmt.Print("Starting http server on port 8084")
+  return http.ListenAndServe(":8084", mux)
 }
 
 func main() {
