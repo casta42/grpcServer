@@ -6,13 +6,17 @@ Workspace de ros que implementa un servidor grpc en python, un cliente en c# y u
 
 Para compilar el proyecto hacer colcon build -> source/install.setup.bash (se usa ros2)
 
-#Archivos a ejecutar:
+# Archivos a ejecutar:
 1) Image.py -> ros2 run interfaces image.py
 2) Grpc-server.py -> ros2 run interfaces grpc_server.py
 3) program.cs -> dotnet run (en la carpeta de scripts)
 4) gateway.go -> go run gateway.go
 
-#Video de evidencia 
+# Video de evidencia 
 
 https://drive.google.com/file/d/1bn88UHJXHH8On2tJSn61kekB_ht_dOoE/view?usp=sharing
+
+
+# Docs
+La documentacion del proyecto se puede encontrar abriendo el archivo index.html encontrado en src/interfases/html
 
