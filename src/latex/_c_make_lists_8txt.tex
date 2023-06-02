@@ -1,0 +1,16 @@
+\doxysection{interfases/\+CMake\+Lists.txt File Reference}
+\hypertarget{_c_make_lists_8txt}{}\label{_c_make_lists_8txt}\index{interfases/CMakeLists.txt@{interfases/CMakeLists.txt}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_c_make_lists_8txt_a0329951dab122876426ece13ad55f42a}{cmake\+\_\+minimum\+\_\+required}} (VERSION 3.\+5) project(interfases) if(NOT CMAKE\+\_\+\+C\+\_\+\+STANDARD) set(CMAKE\+\_\+\+C\+\_\+\+STANDARD 99) endif() if(NOT CMAKE\+\_\+\+CXX\+\_\+\+STANDARD) set(CMAKE\+\_\+\+CXX\+\_\+\+STANDARD 14) endif() if(CMAKE\+\_\+\+COMPILER\+\_\+\+IS\+\_\+\+GNUCXX OR CMAKE\+\_\+\+CXX\+\_\+\+COMPILER\+\_\+\+ID MATCHES \"{}Clang\"{}) add\+\_\+compile\+\_\+options(-\/Wall -\/Wextra -\/Wpedantic) endif() find\+\_\+package(ament\+\_\+cmake REQUIRED) find\+\_\+package(ament\+\_\+cmake\+\_\+python REQUIRED) find\+\_\+package(rclcpp REQUIRED) find\+\_\+package(rclpy REQUIRED) find\+\_\+package(Protobuf REQUIRED) find\+\_\+package(Pkg\+Config REQUIRED) pkg\+\_\+search\+\_\+module(GRPC REQUIRED \mbox{\hyperlink{_get_value_grpc_8cs_ac1caf7931d9a6735b7877748b4ae5c7a}{grpc}}) include\+\_\+directories(include/interfases) add\+\_\+library(multiplicador SHARED src/multiplicador.\+cpp) ament\+\_\+export\+\_\+targets(multiplicador HAS\+\_\+\+LIBRARY\+\_\+\+TARGET) install(DIRECTORY include/interfases DESTINATION include) install(TARGETS multiplicador EXPORT multiplicador LIBRARY DESTINATION lib ARCHIVE DESTINATION lib RUNTIME DESTINATION bin INCLUDES DESTINATION include) ament\+\_\+python\+\_\+install\+\_\+package(\$
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_c_make_lists_8txt_a0329951dab122876426ece13ad55f42a}\label{_c_make_lists_8txt_a0329951dab122876426ece13ad55f42a} 
+\index{CMakeLists.txt@{CMakeLists.txt}!cmake\_minimum\_required@{cmake\_minimum\_required}}
+\index{cmake\_minimum\_required@{cmake\_minimum\_required}!CMakeLists.txt@{CMakeLists.txt}}
+\doxysubsubsection{\texorpdfstring{cmake\_minimum\_required()}{cmake\_minimum\_required()}}
+{\footnotesize\ttfamily cmake\+\_\+minimum\+\_\+required (\begin{DoxyParamCaption}\item[{VERSION 3.}]{5 }\end{DoxyParamCaption})}
+

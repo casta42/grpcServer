@@ -1,16 +1,11 @@
 var searchData=
 [
-  ['_5f_5finit_5f_5f_0',['__init__',['../classget_value__pb2__grpc_1_1coordinate_service_stub.html#a524900ae163e33cad4a79e3731c42833',1,'getValue_pb2_grpc::coordinateServiceStub']]],
-  ['_5f_5finit_5f_5f_2epy_1',['__init__.py',['../____init_____8py.html',1,'']]],
-  ['_5f_5fmarshaller_5fgetcoordinate_5fcoordinate_2',['__Marshaller_getCoordinate_coordinate',['../class_get_coordinate_1_1coordinate_service.html#a7ce023491255350ece5da3fded01f32a',1,'GetCoordinate::coordinateService']]],
-  ['_5f_5fmarshaller_5fgoogle_5fprotobuf_5fempty_3',['__Marshaller_google_protobuf_Empty',['../class_get_coordinate_1_1coordinate_service.html#adfe5c3178fc59466026d2b815cce6bc6',1,'GetCoordinate::coordinateService']]],
-  ['_5f_5fmethod_5fgetcoordinate_4',['__Method_getCoordinate',['../class_get_coordinate_1_1coordinate_service.html#a03646190a2a98d8154e59818daa02793',1,'GetCoordinate::coordinateService']]],
-  ['_5f_5fservicename_5',['__ServiceName',['../class_get_coordinate_1_1coordinate_service.html#a80ca02aeda90c0e5a877480b9769fc30',1,'GetCoordinate::coordinateService']]],
-  ['_5foptions_6',['_options',['../namespaceget_value__pb2.html#a0b0243242f3f4a0f7bbd2e43ca5d59cf',1,'getValue_pb2._options'],['../namespaceempty__pb2.html#a06e027aad9558538b65552c7218d8f84',1,'empty_pb2._options']]],
-  ['_5fparser_7',['_parser',['../class_get_coordinate_1_1coordinate.html#a0da6e9d73658b15ea263a17b3425d258',1,'GetCoordinate::coordinate']]],
-  ['_5fserialized_5fend_8',['_serialized_end',['../namespaceget_value__pb2.html#a72cb0e65c3a94830ed0b9676afd4a384',1,'getValue_pb2._serialized_end'],['../namespaceempty__pb2.html#a0d4dbe2706a610c2617c926b0d4dcfe8',1,'empty_pb2._serialized_end']]],
-  ['_5fserialized_5foptions_9',['_serialized_options',['../namespaceempty__pb2.html#aa9285060da1ad311eae4444219aab218',1,'empty_pb2']]],
-  ['_5fserialized_5fstart_10',['_serialized_start',['../namespaceget_value__pb2.html#ab1d14bb3016bb7783e9e183aa2fd6b42',1,'getValue_pb2._serialized_start'],['../namespaceempty__pb2.html#a24f6e3eedc5f26fdb2e9d6598083676d',1,'empty_pb2._serialized_start']]],
-  ['_5fsym_5fdb_11',['_sym_db',['../namespaceget_value__pb2.html#a89ebc8deec3866a1db2f4cee37deba88',1,'getValue_pb2._sym_db'],['../namespaceempty__pb2.html#af85bbf7208db4b74fd62ffcc5522a722',1,'empty_pb2._sym_db']]],
-  ['_5funknownfields_12',['_unknownFields',['../class_get_coordinate_1_1coordinate.html#aa6b5d631b35eb658dae0588180681fc6',1,'GetCoordinate::coordinate']]]
+  ['client_0',['Client',['../namespace_client.html',1,'']]],
+  ['coordinate_1',['coordinate',['../class_get_coordinate_1_1coordinate.html',1,'GetCoordinate']]],
+  ['coordinateservice_2',['coordinateService',['../classget_value__pb2__grpc_1_1coordinate_service.html',1,'getValue_pb2_grpc']]],
+  ['coordinateservice_3',['CoordinateService',['../classgrpc__server_1_1_coordinate_service.html',1,'grpc_server']]],
+  ['coordinateservicebase_4',['coordinateServiceBase',['../class_get_coordinate_1_1coordinate_service_1_1coordinate_service_base.html',1,'GetCoordinate::coordinateService']]],
+  ['coordinateserviceclient_5',['coordinateServiceClient',['../class_get_coordinate_1_1coordinate_service_1_1coordinate_service_client.html#aecfaed0bc4dbe5a9a38d251534848ba9',1,'GetCoordinate.coordinateService.coordinateServiceClient.coordinateServiceClient(grpc::Channel channel)'],['../class_get_coordinate_1_1coordinate_service_1_1coordinate_service_client.html#a23f94226ff9087c68f1e69be9419b10a',1,'GetCoordinate.coordinateService.coordinateServiceClient.coordinateServiceClient(grpc::CallInvoker callInvoker)'],['../class_get_coordinate_1_1coordinate_service_1_1coordinate_service_client.html#a2575e35b792ae1a93452cef0d53db6b4',1,'GetCoordinate.coordinateService.coordinateServiceClient.coordinateServiceClient()'],['../class_get_coordinate_1_1coordinate_service_1_1coordinate_service_client.html#a26a13fb44737c83a3faa3cfc6e22a2e3',1,'GetCoordinate.coordinateService.coordinateServiceClient.coordinateServiceClient(ClientBaseConfiguration configuration)'],['../class_get_coordinate_1_1coordinate_service_1_1coordinate_service_client.html',1,'GetCoordinate.coordinateService.coordinateServiceClient']]],
+  ['coordinateserviceservicer_6',['coordinateServiceServicer',['../classget_value__pb2__grpc_1_1coordinate_service_servicer.html',1,'getValue_pb2_grpc']]],
+  ['coordinateservicestub_7',['coordinateServiceStub',['../classget_value__pb2__grpc_1_1coordinate_service_stub.html',1,'getValue_pb2_grpc']]]
 ];

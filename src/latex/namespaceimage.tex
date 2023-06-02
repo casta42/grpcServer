@@ -1,0 +1,58 @@
+\doxysection{image Namespace Reference}
+\hypertarget{namespaceimage}{}\label{namespaceimage}\index{image@{image}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespaceimage_a88c045cbfca9359b513d268d6d1b450a}{timer\+\_\+callback}} (array)
+\item 
+\mbox{\hyperlink{namespaceimage_aa7d9d9ee5aa9eea379073e8e6693423d}{main}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespaceimage_a1bfbdf6cfffd3f9e60ad972d46078e5c}{nh}} = Node(\"{}coordinate\+\_\+publisher\+\_\+initiated\"{})
+\begin{DoxyCompactList}\small\item\em Nodo de ros. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespaceimage_a097c5087781151df025f2f0b1210bc5a}{publisher}} = nh.\+create\+\_\+publisher(Int32\+Multi\+Array, \textquotesingle{}/coordinates\textquotesingle{},10)
+\begin{DoxyCompactList}\small\item\em Publisher de ros. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{namespaceimage_aa7d9d9ee5aa9eea379073e8e6693423d}\label{namespaceimage_aa7d9d9ee5aa9eea379073e8e6693423d} 
+\index{image@{image}!main@{main}}
+\index{main@{main}!image@{image}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily image.\+main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}En el archivo main de image.py se obtiene el centro de un rectangulo azul, se llama la funcion multiplicarpor100 de la 
+libreria multiplicador y se llama la funcion timer callback (a esta funcion se pasan como parametros el componente x y y de la cordenada de centro del rectangulo ) \end{DoxyVerb}
+ \Hypertarget{namespaceimage_a88c045cbfca9359b513d268d6d1b450a}\label{namespaceimage_a88c045cbfca9359b513d268d6d1b450a} 
+\index{image@{image}!timer\_callback@{timer\_callback}}
+\index{timer\_callback@{timer\_callback}!image@{image}}
+\doxysubsubsection{\texorpdfstring{timer\_callback()}{timer\_callback()}}
+{\footnotesize\ttfamily image.\+timer\+\_\+callback (\begin{DoxyParamCaption}\item[{}]{array }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Funcion deonde se publica al topico /coordinates la cordenada del centro del rectangulo usando el publisher de ros
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{namespaceimage_a1bfbdf6cfffd3f9e60ad972d46078e5c}\label{namespaceimage_a1bfbdf6cfffd3f9e60ad972d46078e5c} 
+\index{image@{image}!nh@{nh}}
+\index{nh@{nh}!image@{image}}
+\doxysubsubsection{\texorpdfstring{nh}{nh}}
+{\footnotesize\ttfamily image.\+nh = Node(\"{}coordinate\+\_\+publisher\+\_\+initiated\"{})}
+
+
+
+Nodo de ros. 
+
+\Hypertarget{namespaceimage_a097c5087781151df025f2f0b1210bc5a}\label{namespaceimage_a097c5087781151df025f2f0b1210bc5a} 
+\index{image@{image}!publisher@{publisher}}
+\index{publisher@{publisher}!image@{image}}
+\doxysubsubsection{\texorpdfstring{publisher}{publisher}}
+{\footnotesize\ttfamily image.\+publisher = nh.\+create\+\_\+publisher(Int32\+Multi\+Array, \textquotesingle{}/coordinates\textquotesingle{},10)}
+
+
+
+Publisher de ros. 
+

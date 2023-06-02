@@ -1,0 +1,63 @@
+\doxysection{grpc\+\_\+server Namespace Reference}
+\hypertarget{namespacegrpc__server}{}\label{namespacegrpc__server}\index{grpc\_server@{grpc\_server}}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classgrpc__server_1_1_coordinate_service}{Coordinate\+Service}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacegrpc__server_af22626720a846f636c58ac01d04ee838}{serve}} ()
+\item 
+\mbox{\hyperlink{namespacegrpc__server_a0a6445e6af9e7cf8807cfa9a9470d784}{callback}} (msg)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{namespacegrpc__server_a09e4103988df4c00002d55e7a8f6c206}{res\+\_\+x}} = 0
+\begin{DoxyCompactList}\small\item\em variable global donde se guarda el valor x de la coordenada \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{namespacegrpc__server_af2348efc0bb7130b1fcc23d958fde6e0}{res\+\_\+y}} = 0
+\begin{DoxyCompactList}\small\item\em variable global donde se guarda el valor 7 de la coordenada \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{namespacegrpc__server_a0a6445e6af9e7cf8807cfa9a9470d784}\label{namespacegrpc__server_a0a6445e6af9e7cf8807cfa9a9470d784} 
+\index{grpc\_server@{grpc\_server}!callback@{callback}}
+\index{callback@{callback}!grpc\_server@{grpc\_server}}
+\doxysubsubsection{\texorpdfstring{callback()}{callback()}}
+{\footnotesize\ttfamily grpc\+\_\+server.\+callback (\begin{DoxyParamCaption}\item[{}]{msg }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Funcion del subscriber de ros que recibe los valores de la coordenada
+\end{DoxyVerb}
+ \Hypertarget{namespacegrpc__server_af22626720a846f636c58ac01d04ee838}\label{namespacegrpc__server_af22626720a846f636c58ac01d04ee838} 
+\index{grpc\_server@{grpc\_server}!serve@{serve}}
+\index{serve@{serve}!grpc\_server@{grpc\_server}}
+\doxysubsubsection{\texorpdfstring{serve()}{serve()}}
+{\footnotesize\ttfamily grpc\+\_\+server.\+serve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}   Esta funcion inicializa un subscriber de ros para obtener los valores de las cordenadas y crea un servidor usando la clase correspondiente generada por grpc definida en el servicio protobuf
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{namespacegrpc__server_a09e4103988df4c00002d55e7a8f6c206}\label{namespacegrpc__server_a09e4103988df4c00002d55e7a8f6c206} 
+\index{grpc\_server@{grpc\_server}!res\_x@{res\_x}}
+\index{res\_x@{res\_x}!grpc\_server@{grpc\_server}}
+\doxysubsubsection{\texorpdfstring{res\_x}{res\_x}}
+{\footnotesize\ttfamily int grpc\+\_\+server.\+res\+\_\+x = 0}
+
+
+
+variable global donde se guarda el valor x de la coordenada 
+
+\Hypertarget{namespacegrpc__server_af2348efc0bb7130b1fcc23d958fde6e0}\label{namespacegrpc__server_af2348efc0bb7130b1fcc23d958fde6e0} 
+\index{grpc\_server@{grpc\_server}!res\_y@{res\_y}}
+\index{res\_y@{res\_y}!grpc\_server@{grpc\_server}}
+\doxysubsubsection{\texorpdfstring{res\_y}{res\_y}}
+{\footnotesize\ttfamily int grpc\+\_\+server.\+res\+\_\+y = 0}
+
+
+
+variable global donde se guarda el valor 7 de la coordenada 
+

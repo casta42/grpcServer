@@ -1,9 +1,4 @@
 var searchData=
 [
-  ['calculatesize_0',['CalculateSize',['../class_get_coordinate_1_1coordinate.html#acdd5e17d37e5604e73618cd115b62855',1,'GetCoordinate::coordinate']]],
-  ['callback_1',['callback',['../namespacegrpc__server.html#a0a6445e6af9e7cf8807cfa9a9470d784',1,'grpc_server']]],
-  ['clone_2',['Clone',['../class_get_coordinate_1_1coordinate.html#ab8f990cd1be3428b7b83faf4a098a302',1,'GetCoordinate::coordinate']]],
-  ['cmake_5fminimum_5frequired_3',['cmake_minimum_required',['../_c_make_lists_8txt.html#a0329951dab122876426ece13ad55f42a',1,'CMakeLists.txt']]],
-  ['coordinate_4',['coordinate',['../class_get_coordinate_1_1coordinate.html#aeeef0f4edbc2fb5113ba5d55da7a864a',1,'GetCoordinate.coordinate.coordinate()'],['../class_get_coordinate_1_1coordinate.html#a3f94fd92b04b7ebe04d89860ae4a19b6',1,'GetCoordinate.coordinate.coordinate(coordinate other)']]],
-  ['coordinateserviceclient_5',['coordinateServiceClient',['../class_get_coordinate_1_1coordinate_service_1_1coordinate_service_client.html#aecfaed0bc4dbe5a9a38d251534848ba9',1,'GetCoordinate.coordinateService.coordinateServiceClient.coordinateServiceClient(grpc::Channel channel)'],['../class_get_coordinate_1_1coordinate_service_1_1coordinate_service_client.html#a23f94226ff9087c68f1e69be9419b10a',1,'GetCoordinate.coordinateService.coordinateServiceClient.coordinateServiceClient(grpc::CallInvoker callInvoker)'],['../class_get_coordinate_1_1coordinate_service_1_1coordinate_service_client.html#a2575e35b792ae1a93452cef0d53db6b4',1,'GetCoordinate.coordinateService.coordinateServiceClient.coordinateServiceClient()'],['../class_get_coordinate_1_1coordinate_service_1_1coordinate_service_client.html#a26a13fb44737c83a3faa3cfc6e22a2e3',1,'GetCoordinate.coordinateService.coordinateServiceClient.coordinateServiceClient(ClientBaseConfiguration configuration)']]]
+  ['newinstance_0',['NewInstance',['../class_get_coordinate_1_1coordinate_service_1_1coordinate_service_client.html#aebf3ab0abe81ca0fca85344253b7796e',1,'GetCoordinate::coordinateService::coordinateServiceClient']]]
 ];
