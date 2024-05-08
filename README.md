@@ -1,4 +1,4 @@
-# midterm8vo
+# GrpcServer
 
 Workspace de ros que implementa un servidor grpc en python, un cliente en c# y un servidor grpc-gateway para obtener la coordenada del centro de un rectangulo azul
 
@@ -11,11 +11,6 @@ Para compilar el proyecto hacer colcon build -> source/install.setup.bash (se us
 2) Grpc-server.py -> ros2 run interfaces grpc_server.py
 3) program.cs -> dotnet run (en la carpeta de scripts)
 4) gateway.go -> go run gateway.go
-
-# Video de evidencia 
-
-https://drive.google.com/file/d/1bn88UHJXHH8On2tJSn61kekB_ht_dOoE/view?usp=sharing
-
 
 # Docs
 La documentacion del proyecto se hizo usando doxygen, se puede encontrar corriendo el archivo index.html encontrado en src/interfases/html
