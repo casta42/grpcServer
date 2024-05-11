@@ -1,6 +1,6 @@
 # GrpcServer
 
-Workspace de ros que implementa un servidor grpc en python, un cliente en c# y un servidor grpc-gateway para obtener la coordenada del centro de un rectangulo azul
+Workspace de ros2 que implementa un servidor grpc en python, un cliente en c# y un servidor grpc-gateway para obtener datos publicados en un tópico de ROS, este workspace se puede usar para obtener usando HTTP datos publicados en un tópico. Use, modifique y refactorice el código como usted desee.
 
 ![Alt text](plant.png)
 
